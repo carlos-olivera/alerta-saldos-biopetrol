@@ -338,3 +338,60 @@
 2025-03-07 08:20:08,733 - ERROR - Error al realizar la solicitud HTTP: HTTPConnectionPool(host='ec2-3-22-240-207.us-east-2.compute.amazonaws.com', port=80): Max retries exceeded with url: /guiasaldos/main/donde/134 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x102233690>: Failed to resolve 'ec2-3-22-240-207.us-east-2.compute.amazonaws.com' ([Errno 8] nodename nor servname provided, or not known)"))
 2025-03-07 08:20:08,733 - WARNING - No se pudieron obtener datos de estaciones
 2025-03-07 08:20:08,734 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:25:47,750 - INFO - Iniciando monitoreo del surtidor 'ALEMANA' cada 5 minutos
+2025-03-16 17:25:48,687 - INFO - Mensaje enviado a Telegram con éxito
+2025-03-16 17:25:48,688 - INFO - Realizando verificación inicial (sin enviar alertas)...
+2025-03-16 17:25:48,688 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:25:49,109 - WARNING - No se encontró el surtidor 'ALEMANA'
+2025-03-16 17:25:49,110 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:29:13,174 - INFO - Monitoreo detenido por el usuario
+2025-03-16 17:32:07,779 - INFO - Surtidores a monitorear: ['LOPEZ', 'ALEMANIA']
+2025-03-16 17:32:07,779 - INFO - Iniciando monitoreo de los surtidores: LOPEZ, ALEMANIA cada 5 minutos
+2025-03-16 17:32:08,596 - INFO - Mensaje enviado a Telegram con éxito
+2025-03-16 17:32:08,596 - INFO - Realizando verificación inicial (sin enviar alertas)...
+2025-03-16 17:32:08,596 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:32:09,027 - INFO - El surtidor LOPEZ está disponible con 21,277.00 Lts.
+2025-03-16 17:32:09,028 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:32:09,463 - WARNING - No se encontró el surtidor 'ALEMANIA'
+2025-03-16 17:32:09,464 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:37:09,457 - INFO - Realizando verificación periódica...
+2025-03-16 17:37:09,460 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:37:09,926 - INFO - El surtidor LOPEZ está disponible con 20,321.00 Lts.
+2025-03-16 17:37:09,926 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:37:10,376 - WARNING - No se encontró el surtidor 'ALEMANIA'
+2025-03-16 17:37:10,376 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:42:10,385 - INFO - Realizando verificación periódica...
+2025-03-16 17:42:10,388 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:42:10,841 - INFO - El surtidor LOPEZ está disponible con 20,321.00 Lts.
+2025-03-16 17:42:10,842 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:42:11,267 - WARNING - No se encontró el surtidor 'ALEMANIA'
+2025-03-16 17:42:11,267 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:47:06,971 - INFO - Monitoreo detenido por el usuario
+2025-03-16 17:47:10,963 - INFO - Surtidores a monitorear: ['LOPEZ', 'ALEMANIA']
+2025-03-16 17:47:10,963 - INFO - Biopetrol Monitor v1.0.0 iniciado
+2025-03-16 17:47:10,963 - INFO - Iniciando monitoreo de los surtidores: LOPEZ, ALEMANIA cada 5 minutos
+2025-03-16 17:47:11,759 - INFO - Mensaje enviado a Telegram con éxito
+2025-03-16 17:47:11,760 - INFO - Realizando verificación inicial (sin enviar alertas)...
+2025-03-16 17:47:11,761 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:47:12,197 - INFO - El surtidor LOPEZ está disponible con 20,321.00 Lts.
+2025-03-16 17:47:12,197 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 17:47:12,631 - WARNING - No se encontró el surtidor 'ALEMANIA'
+2025-03-16 17:47:12,631 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 17:48:08,164 - INFO - Monitoreo detenido por el usuario
+2025-03-16 17:50:42,769 - INFO - Realizando llamada telefónica (intento 1/3)
+2025-03-16 17:50:42,769 - WARNING - Línea ocupada. Reintentando en 60 segundos...
+2025-03-16 17:50:42,770 - INFO - Realizando llamada telefónica (intento 2/3)
+2025-03-16 17:50:42,770 - INFO - Llamada telefónica realizada con éxito
+2025-03-16 17:50:42,770 - INFO - Realizando llamada telefónica (intento 1/3)
+2025-03-16 17:50:42,770 - INFO - Llamada telefónica realizada con éxito
+2025-03-16 18:00:50,865 - INFO - Surtidores a monitorear: ['LOPEZ', 'ALEMANIA']
+2025-03-16 18:00:50,866 - INFO - Biopetrol Monitor v1.0.0 iniciado
+2025-03-16 18:00:50,866 - INFO - Iniciando monitoreo de los surtidores: LOPEZ, ALEMANIA cada 5 minutos
+2025-03-16 18:00:51,685 - INFO - Mensaje enviado a Telegram con éxito
+2025-03-16 18:00:51,685 - INFO - Realizando verificación inicial (sin enviar alertas)...
+2025-03-16 18:00:51,685 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 18:00:52,116 - INFO - El surtidor LOPEZ está disponible con 19,303.00 Lts.
+2025-03-16 18:00:52,116 - INFO - Extrayendo datos de: http://ec2-3-22-240-207.us-east-2.compute.amazonaws.com/guiasaldos/main/donde/134
+2025-03-16 18:00:52,566 - WARNING - No se encontró el surtidor 'ALEMANIA'
+2025-03-16 18:00:52,566 - INFO - Esperando 5 minutos para la próxima verificación...
+2025-03-16 18:01:03,591 - INFO - Monitoreo detenido por el usuario
