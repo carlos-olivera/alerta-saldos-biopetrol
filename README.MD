@@ -2,7 +2,8 @@
 
 [![Versión](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/biopetrol-monitor)
 
-Este sistema monitorea surtidores de combustible Biopetrol y envía alertas por Telegram y llamadas telefónicas cuando hay nueva carga de combustible disponible.
+Este sistema monitorea surtidores de combustible de la red Biopetrol y envía alertas por Telegram y llamadas telefónicas cuando hay nueva carga de combustible disponible.
+
 
 ## Características
 
